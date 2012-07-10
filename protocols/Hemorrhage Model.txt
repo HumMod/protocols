@@ -14,4 +14,4 @@ Data is collected from the last minute of each lower external pressure change.  
 - Lower External Pressure
 - Cardiac Output
 - Flow of Systemic Arteries
-- Oxygen Saturation
+- Arterial Oxygen Saturation
