@@ -7,7 +7,7 @@ The subject undergoes 7 min submaximal (40-80% of maximal oxygen uptake) and 5 m
 
 During the second day, a small fat-free breakfast is served.  All runs are done on the treadmill.  After eating, the subject lays down rested for an hour before starting exercises.  The subject has 10 minute rests between work loads unless specified otherwise.  
 
-For submaximal runs, assume 40% maximal oxygen uptake.  To obtain a 40% uptake on a bike, set power = 100 Watts with RPM = 55. On a treadmill, have the subject walk 3.5 MPH. For maximal runs, assume 80% maximal oxygen uptake.  On treadmill, run the subject at 6 MPH at 28% effiency. 
+For submaximal runs, assume 40% maximal oxygen uptake.  To obtain a 40% uptake on a bike, set power = 100 Watts with RPM = 55. On a treadmill, have the subject walk 3.5 MPH. For maximal runs, assume 80% maximal oxygen uptake.  On treadmill, run the subject at 6 MPH at 28% efficiency. 
 
 ### Day 1 Exercises
 1. Run a 30 min rest to have the respiratory rate going

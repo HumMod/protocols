@@ -1,0 +1,17 @@
+# Human experimental model of hemorrhage
+Summers, Richard L. et al., Resuscitation, 80(12), 2009.
+
+## Protocol
+Data is collected from the last minute of each lower external pressure change.  Every lower pressure change lasts 5 minutes.  
+
+### Test Trial
+1.  Start the subject at 0 mmHg lower external pressure 
+2.  Go to -60 mmHg with increments of -15.
+3.  After the patient reaches -60 mmHg, increase negative pressure by 10 
+4.  Stop the lower pressure after the 5 minute run of -100 mmHg
+
+## Variables to Record
+- Lower External Pressure
+- Cardiac Output
+- Flow of Systemic Arteries
+- Oxygen Saturation
