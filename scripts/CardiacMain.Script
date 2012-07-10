@@ -1,0 +1,171 @@
+<script>
+
+<launch>
+	<solver> C:\Users\Muhammad\Desktop\library-private\Model Solver.EXE </solver>
+	<model> C:\Users\Muhammad\Desktop\library-private\Model.DES </model>
+</launch>
+<newline/>
+<roster>
+	<var><name> System.X </name> <format> 0 </format></var>
+	<var><name> CardiacOutput.Flow </name> <format> 0 </format></var>
+	<var><name> Heart-Rate.Rate </name> <format> 1 </format></var>
+	<var><name> CardiacOutput.StrokeVolume </name> <format> 0 </format></var>
+	<var><name> Breathing.TotalVentilation(L) </name> <format> 1 </format></var>
+	<var><name> SystemicArtys.Pressure </name> <format> 1 </format></var>
+	<var><name> LungO2.Uptake </name> <format> 1 </format></var>
+	<var><name> PO2Veins.Sat(%) </name> <format> 1 </format></var>
+</roster>
+
+<reset/>
+<restart/>
+
+<dumproster>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt </filename>
+</dumproster>
+
+<setvalue>
+  <var> PostureControl.Request </var>
+  <val> 3 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 30 </solutionint>
+  <displayint> 30 </displayint>
+</gofor>
+
+<?include SubBike.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 30 </start>
+<stop> 37 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 10 </solutionint>
+  <displayint> 10 </displayint>
+</gofor>
+
+<?include SubTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 47 </start>
+<stop> 54 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 10 </solutionint>
+  <displayint> 10 </displayint>
+</gofor>
+
+<?include SubTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 64 </start>
+<stop> 71 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 10 </solutionint>
+  <displayint> 10 </displayint>
+</gofor>
+
+<?include MaxTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 81 </start>
+<stop> 86 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 1354 </solutionint>
+  <displayint> 360 </displayint>
+</gofor>
+
+<?include SubTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 1440 </start>
+<stop> 1447 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 10 </solutionint>
+  <displayint> 10 </displayint>
+</gofor>
+
+<?include SubTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 1457 </start>
+<stop> 1464 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 10 </solutionint>
+  <displayint> 10 </displayint>
+</gofor>
+
+<?include SubTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 1474 </start>
+<stop> 1481 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 20 </solutionint>
+  <displayint> 20 </displayint>
+</gofor>
+
+<setvalue>
+  <var> Exercise-Control.Request </var>
+  <val> 2 </val>
+</setvalue>
+
+<setvalue>
+  <var> Exercise-Treadmill.RunOrWalk </var>
+  <val> 1 </val>
+</setvalue>
+
+<setvalue>
+  <var> Exercise-Treadmill.Speed(MPH) </var>
+  <val> 4 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 3 </solutionint>
+  <displayint> 3 </displayint>
+</gofor>
+
+<setvalue>
+  <var> Exercise-Treadmill.RunOrWalk </var>
+  <val> 0 </val>
+</setvalue>
+
+<?include MaxTread.Script ?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\CardOut 2.0\CardiacOutput.txt</filename>
+<append/>
+<start> 1504 </start>
+<stop> 1509 </stop>
+</dumpsegment>
+
+
+</script>
+
+Created by:  Muhammad Dakhlalla

@@ -1,0 +1,182 @@
+<script>
+
+<launch>
+	<solver>  C:\Users\Muhammad\Desktop\library-private\Model Solver.EXE </solver>
+	<model> C:\Users\Muhammad\Desktop\library-private\Model.DES </model>
+</launch>
+
+<roster>
+	<var><name> System.X </name> <format> 0 </format></var>
+	<var><name>  LowerExternalPressure.Pressure </name> <format> 1 </format></var>
+	<var><name>  CardiacOutput.Flow </name> <format> 1 </format></var>
+	<var><name> SystemicArtys.Pressure </name> <format> 1 </format></var>
+	<var><name> PO2Veins.Sat(%) </name> <format> 1 </format></var>
+</roster>
+
+<reset/>
+<restart/>
+
+<dumproster>
+<filename>C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+</dumproster>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  -15.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val> -30.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val> -45.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  -60.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  -70.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val> -80.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val> -90.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  -100.0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 5 </solutionint>
+  <displayint> 5 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<setvalue>
+  <var> LowerExternalPressure.Pressure  </var>
+  <val>  0 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 360 </solutionint>
+  <displayint> 60 </displayint>
+</gofor>
+
+<dumppoint>
+<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\LBNP.txt </filename>
+<append/>
+</dumppoint>
+
+<!--
+<savesolution>
+	<filename> C:\Users\Muhammad\Desktop\HemoProt 2.0\HemoEditor.sol </filename>
+</savesolution>
+-->
+</script>
+
+Created by:  Muhammad Dakhlalla
+
