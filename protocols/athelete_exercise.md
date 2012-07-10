@@ -24,7 +24,9 @@ For submaximal runs, assume 40% maximal oxygen uptake.  To obtain a 40% uptake o
 
 ## Variables of Interest
 - Cardiac Output
+- Oxygen Uptake
 - Arterial oxygen saturation
 - Heart rate
-- Hemoglobin concentration
+- Systemic Arterial Pressure
 - Stroke Volume
+- Pulmonary Ventilation
