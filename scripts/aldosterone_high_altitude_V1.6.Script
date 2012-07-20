@@ -1,0 +1,116 @@
+<script>
+
+<launch>
+	<solver> C:\Users\Muhammad\Desktop\SURE Program\HumMod-hummod-standalone-2d02143\Model Solver.EXE </solver>
+	<model> C:\Users\Muhammad\Desktop\SURE Program\HumMod-hummod-standalone-2d02143\Model.DES </model>
+</launch>
+<newline/>
+<roster>
+	<var><name> System.X </name> <format> 0 </format></var>
+	<var><name> CO2Artys.Pressure </name> <format> 1 </format></var>
+	<var><name> PO2Artys.Pressure </name> <format> 1 </format></var>
+	<var><name> HgbConc.[Total] </name> <format> 3 </format></var>
+	<var><name> BloodVol.Hct </name> <format> 1 </format></var>
+	<var><name> Breathing.TotalVentilation(L) </name> <format> 1 </format></var>
+	<var><name> ReninPool.[PRA] </name> <format> 2 </format></var>
+	<var><name> A2Pool.[A2(pG/mL)] </name> <format> 1 </format></var>
+	<var><name> AldoPool.[Aldo]  </name> <format> 1 </format></var>
+	<var><name> AldoPool.[Aldo(nG/dL)] </name> <format> 1 </format></var>
+	<var><name> Weight.Weight(kG) </name> <format> 1 </format></var>
+	<var><name> CD_K.Outflow </name> <format> 1 </format></var>
+	<var><name>  CD_Na.Outflow </name> <format> 1 </format></var>
+	<var><name> CD_Creatinine.[Creatinine(mG/dL)] </name> <format> 3 </format></var>
+	<var><name> NEPool.[NE(pG/mL)] </name> <format> 1 </format></var>
+	<var><name> EpiPool.[Epi(pG/mL)] </name> <format> 1 </format></var>
+</roster>
+
+<reset/>
+<restart/>
+
+<setvalue>
+  <var> PostureControl.Request </var>
+  <val> 1 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 2560 </solutionint>
+  <displayint> 20 </displayint>
+</gofor>
+
+<?include ExProt2.SCRIPT?>
+
+<dumproster>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+</dumproster>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 480 </start>
+<stop> 500 </stop>
+</dumpsegment>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 560 </start>
+<stop> 580 </stop>
+</dumpsegment>
+
+
+<gofor>
+  <solutionint> 1440 </solutionint>
+  <displayint> 60 </displayint>
+</gofor>
+
+<setvalue>
+  <var> Altitude.Meters </var>
+  <val> 4300 </val>
+</setvalue>
+
+<gofor>
+  <solutionint> 2280 </solutionint>
+  <displayint> 20 </displayint>
+</gofor>
+
+<?include ExProt2.SCRIPT?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 2340 </start>
+<stop> 2360 </stop>
+</dumpsegment>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 2400 </start>
+<stop> 2420 </stop>
+</dumpsegment>
+
+<gofor>
+  <solutionint> 16480 </solutionint>
+  <displayint> 20 </displayint>
+</gofor>
+
+<?include ExProt2.SCRIPT?>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 16260 </start>
+<stop> 16280 </stop>
+</dumpsegment>
+
+<dumpsegment>
+  <filename>  C:\Users\Muhammad\Desktop\Hummod V1.6\ExProt\ExerciseOld.txt </filename>
+<append/>
+<start> 16340 </start>
+<stop> 16360 </stop>
+</dumpsegment>
+
+
+</script>
+
+Created by:  Muhammad Dakhlalla
